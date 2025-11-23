@@ -1,15 +1,29 @@
+# Nexus
+
+An 2024-2025-Summer prp
+
+---
+
+Teacher: Gui Jiaping
+
+Collaborators: Wu Jiahang
+
 # Net Detector
 
 ## Implement
 
 Detect net data anomalies. 
-* test on optc
-python train_fasttext.py --dataset optc_day23-flow
-python preprocess.py --dataset optc_day23-flow
-python train_vae.py --dataset optc_day23-flow
-python eval.py --dataset optc_day23-flow
-```
 
+* test on optc
+
+```
+python train_fasttext.py --dataset optc_day23-flow
+
+python preprocess.py --dataset optc_day23-flow
+
+python train_vae.py --dataset optc_day23-flow
+
+python eval.py --dataset optc_day23-flow
 ```
 
 ## Prerequisites
